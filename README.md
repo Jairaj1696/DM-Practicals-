@@ -208,3 +208,27 @@ int main() {
 
     return 0;
 }
+```
+INPUT/OUTPUT
+```
+=== SET OPERATIONS MENU ===
+1. is member
+2. powerset
+...
+Enter your choice: 2
+Input Set:
+Enter number of elements: 3
+Enter the elements: 2 3 5
+Powerset: { {} {2} {3} {2, 3} {5} {2, 5} {3, 5} {2, 3, 5} }
+
+=== SET OPERATIONS MENU ===
+Enter your choice: 6
+Input Set A:
+Enter number of elements: 4
+Enter the elements: 2 3 5 7
+Input Set B:
+Enter number of elements: 3
+Enter the elements: 5 7 11
+Difference (A - B): { 2 3 }
+Symmetric Difference: { 2 3 11 }
+```
