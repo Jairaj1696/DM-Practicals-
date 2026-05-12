@@ -210,7 +210,8 @@ int main() {
 }
 ```
 INPUT/OUTPUT
-```
+```cpp
+
 === SET OPERATIONS MENU ===
 1. is member
 2. powerset
