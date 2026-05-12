@@ -1,16 +1,17 @@
 # DM-Practicals-
 
 # Q1 Practical 1: Set Operations
-# Question: Create a class SET. Create member functions to perform the following SET operations:
+ Question: Create a class SET. Create member functions to perform the following SET operations:
 
-# is member: check whether an element belongs to the set or not and return value as true/false.
-# powerset: list all the elements of the power set of a set.
-# subset: Check whether one set is a subset of the other or not.
-# union and Intersection of two Sets.
-# complement: Assume Universal Set as per the input elements from the user.
-# set Difference and Symmetric Difference between two sets.
-# cartesian Product of Sets.
-# Write a menu-driven program to perform the above functions on an instance of the SET class.
+ is member: check whether an element belongs to the set or not and return value as true/false.
+ powerset: list all the elements of the power set of a set.
+ subset: Check whether one set is a subset of the other or not.
+ union and Intersection of two Sets.
+ complement: Assume Universal Set as per the input elements from the user.
+ set Difference and Symmetric Difference between two sets.
+ cartesian Product of Sets.
+ Write a menu-driven program to perform the above functions on an instance of the SET class.
+```cpp
 #include <iostream>
 #include <vector>
 #include <cmath>
@@ -200,6 +201,7 @@ int main() {
                 cout << "Exiting...\n";
                 break;
             default:
+```
                 cout << "Invalid choice!\n";
         }
     } while (choice != 0);
